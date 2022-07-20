@@ -1,0 +1,21 @@
+integer timeHour 
+integer timeMinute
+float tollAmount
+
+timeHour=Get next input
+timeMinute=Get next input
+
+if timeHour < 6 
+   tollAmount = 1.50
+
+elseif timeHour < 10 
+   tollAmount = 4.60
+
+elseif timeHour < 18
+   tollAmount = 2.30
+   
+else 
+   tollAmount = 1.50
+ 
+Put "Toll: $" to output
+Put tollAmount to output

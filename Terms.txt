@@ -1,0 +1,14 @@
+Logic Operators - treats operands as being true or false, and evaluates to true or false (include and, or, not)
+
+Logic Table - 
+
+Precedence Rules - Operator/Convention   |  Description
+                    ()                      -Items within parentheses are evaluated first 
+                    not                     -Logical not is next 
+                    * / % + -               -Arithmetic operators (using PEMDAS)
+                    <   <=   >   >=         -Relational operators 
+                    ==   !=                 -Equality and inequality operators 
+                    and                     -Logical and
+                    or                      -Logical or
+
+Decision Expressions - 

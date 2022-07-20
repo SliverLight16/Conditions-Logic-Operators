@@ -1,0 +1,14 @@
+integer userAge
+
+userAge = Get next input
+
+if userAge > 14
+   Put "Can Drive.\n" to output
+   
+if userAge > 17
+   Put "Can vote.\n" to output
+   
+if userAge > 24
+   Put "Can rent a car.\n" to output
+
+Put "BE A MAN (or woman)" to output

@@ -1,0 +1,17 @@
+integer userNum
+
+userNum = Get next input
+
+if userNum < 0
+   Put "< 0" to output
+
+elseif userNum < 10
+   Put "0-9" to output
+   
+elseif userNum < 20
+   Put "10-19" to output
+   
+else
+   Put "Big Num" to output
+
+//Implicit Detection - if the first "if" is false then it is given that userNum is greater than or equal to zero, so no need

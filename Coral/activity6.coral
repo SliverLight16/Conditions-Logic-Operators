@@ -1,0 +1,15 @@
+float bodyTemp
+
+bodyTemp = Get next input
+
+if AbsoluteValue(bodyTemp - 98.6) < 0.00001
+   Put "Normal Guy" to output
+   
+elseif bodyTemp > 98.6
+   Put "You're running a fever" to output
+   
+else 
+   Put "Are you Cold-blooded?" to output
+
+//When coding it is not reliable to use equality operators to compare decimal number 
+//due to how specific, tedoious they are, and the limited space of a processing unit
